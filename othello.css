@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(32, 97, 97);
+}
+.board-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+}
+.board{
+        background-color:  rgb(57, 192, 42);
+        border: 9px solid black;
+}
+td.block{
+        background-color: rgb(222, 146, 15);
+        width: 56px;
+        height: 56px;
+        margin:2px;
+        font-size: 50px;
+        text-align: center;
+        line-height: 56px; 
+        border: 3px solid black;
+    }
+td.cell_canput{
+        background-color: #ffb27f;
+        width: 56px;
+        height: 56px;
+        margin:2px;
+        font-size: 40px;
+        text-align: center;
+        color:red;
+        line-height: 56px; 
+    }
+td.black{
+        top: 2px;
+        bottom: 0;
+        left: 2px;
+        width: 56px;
+        height: 56px;
+        margin:2px;
+        border-radius: 50%;
+        background-color: black; 
+    }
+td.white{
+        top: 2px;
+        bottom: 0;
+        left: 2px;
+        width: 56px;
+        height: 56px;
+        margin:2px;
+        border-radius: 50%;
+        background-color: white;
+    }
+c.textcontent{
+    text-align: center;
+}
+h2{
+   text-align: center; 
+}
+.team{
+    color: aliceblue;
+}
+.hyouki{
+    text-align: center;
+}
